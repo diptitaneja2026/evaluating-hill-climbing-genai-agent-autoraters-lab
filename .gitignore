@@ -1,0 +1,18 @@
+# Environment & Secrets
+.env
+*.pem
+*.key
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# ADK & Large Raw Evaluation Artifacts
+.adk/
+runs/geap_calls_and_responses_for_analysis.json
+runs/baseline/
+re_analyst/*.evalset.json
